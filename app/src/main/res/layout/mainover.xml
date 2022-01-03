@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="5dp" android:layout_weight="1">
+                <ImageView android:id="@+id/setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/back" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="3">
+                <TextView android:typeface="monospace" android:textColor="#ffffff" android:id="@+id/lensheight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="5dp" android:layout_weight="1">
+                <ImageView android:id="@+id/howto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/howto" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="5dp" android:layout_weight="1">
+                <ImageView android:id="@+id/focus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/focus" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+            <LinearLayout android:orientation="vertical" android:id="@+id/heightback" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3">
+                <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <TextView android:typeface="monospace" android:textColor="#ffffff" android:id="@+id/heightprint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+                    <TextView android:typeface="monospace" android:textColor="#ffffff" android:id="@+id/height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/hshot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hoff"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_margin="5dp" android:layout_weight="2">
+            <ImageView android:id="@+id/centerimage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/centerpoint"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/back" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3">
+                <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <TextView android:typeface="monospace" android:textColor="#ffffff" android:id="@+id/distanceprint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/distance"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+                    <TextView android:typeface="monospace" android:textColor="#ffffff" android:id="@+id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/dshot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/doff"/>
+            </LinearLayout>
+        </LinearLayout>
+<!--        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">-->
+<!--            <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="match_parent" android:layout_height="wrap_content" ads:adSize="SMART_BANNER" ads:adUnitId="ca-app-pub-9000963779651236/4747273504"/>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</LinearLayout>

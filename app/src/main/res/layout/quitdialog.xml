@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/dialoglayout" android:background="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#ffffff" android:id="@+id/textViewMessage2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quitmessage"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="4">
+<!--        <com.google.android.gms.ads.AdView android:id="@+id/adView3" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adSize="MEDIUM_RECTANGLE" ads:adUnitId="ca-app-pub-9000963779651236/4747273504"/>-->
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#ffffff" android:id="@+id/textViewMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quitmessage"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:id="@+id/cancelbutton" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/canceldialog" android:layout_weight="1"/>
+        <Button android:id="@+id/quitbutton" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/quitdialog" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

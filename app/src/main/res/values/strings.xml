@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AutoDistanceCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="rate">Rate this app</string>
+    <string name="recommend">More apps</string>s
+    <string name="nolink">It can\'t connect to app market</string>
+    <string name="distance">Distance</string>
+    <string name="height">Height</string>
+    <string name="inputheighttitle">Type the lens height</string>
+    <string name="distanceunittitle">Distance/Height Unit</string>
+    <string name="settingtitle">Setting</string>
+    <string name="typehint">Type the value</string>
+    <string name="quitmessage">Do you really want to exit?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="quittitle">Distance Meter</string>
+    <string name="canceldialog">NO</string>
+    <string name="quitdialog">YES</string>
+    <string name="dotalert">Please enter a digit first</string>
+</resources>

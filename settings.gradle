@@ -1,0 +1,2 @@
+rootProject.name = "AutoDistanceExample2"
+include ':app'
